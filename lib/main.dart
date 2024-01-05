@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:moviesdb_task/core/constants/app_colors.dart';
 import 'package:moviesdb_task/routes.dart';
+import 'package:moviesdb_task/ui/screens/main_screen/bottom_tabs/watch/movie_detail/movie_detail_screen.dart';
 import 'package:moviesdb_task/ui/screens/main_screen/main_screen.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
@@ -55,7 +56,7 @@ class MyApp extends StatelessWidget {
         ),
         // home: const MyHomePage(title: 'Flutter Demo Home Page'),
 
-        initialRoute: MainScreen.routeName,
+        initialRoute: MovieDetailScreen.routeName,
         onGenerateRoute: AppRoutes.onGenerateRoute,
       );
     });
